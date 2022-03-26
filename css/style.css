@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    margin: 30px 25px 30px 25px;
+}
+
+.box1 {
+    border: 1px solid black;
+    height: 700px;
+    width: 100%;
+}
+
+.box2 {
+    border: 1px solid black;
+    height: 578px;
+    width: 100%;
+}
+
+.box3 {
+    border: 1px solid black;
+    height: 478px;
+    width: 999.140;
+    padding: 75px 20px 75px 20px;
+}
