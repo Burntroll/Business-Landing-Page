@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+/*******************
+*** NAVBAR CAIXA ***
+*******************/
+
 header .container{
     background-color: black;
     width: 100%;
@@ -18,6 +22,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 4;
 }
 
 header .logo {
@@ -36,15 +41,26 @@ header nav a:hover {
     transition: .40s ease all;
 }
 
-/*******
-**MAIN**
-********/
+/*********************
+*** PRIMEIRA CAIXA ***
+*********************/
 
 .box1 {
     background-image: linear-gradient(180deg, rgba(0,0,0,.50)30%, rgba(206, 52, 52, 0.45) 70%), url(/assets/Image/firstphoto.jpg);
     background-size: cover;
-    height: 665px;
-    width: 100%;
+    height: 750px;
+    width: 100%; 
+}
+
+.box-text {
+    color: black;
+    height: 130px;
+    width: 1400px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    top: 340px;
 }
 
 h1 {
@@ -55,31 +71,57 @@ h1 {
     line-height: 1em;
     letter-spacing: 0px;
     text-shadow: 5px 3px 100px rgb(0 0 0 / 70%);
-    text-align: center;
-    padding-top: 250px;
 }
 
 h2 {
     color: #fff;
     font-size: 21px;
     font-weight: 100;
-    text-align: center; 
-    padding-top: 25px;
-    padding-bottom: 20px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.whatsapp {
+    height: 60px;
+    width: 60;
+    position: fixed;
+    top: 90%;
+    left: 94.5%;
+    opacity: 0.8;
+    transition: .40s ease all;
+}
+
+.whatsapp:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    transition: .40s ease all;
 }
 
 .link-main {
     color: #fff;
     background-color: rgba(224, 56, 56, 1);
-    width: 250px;
+    width: 360px;
+    height: 45px;
+    font-size: 20px;
+    letter-spacing: 1px;
     align-items: center;
     text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 10px 0 10px 0;
+    padding: 12px 0 10px 3px;
     position: relative;
-    left: 40%;
+    top: 25px;
+    left: 38%;
+    transition: .40s ease-in-out;
 }
+
+.link-main:hover {
+    transform: scale(1.25);
+    transition: .40s ease-in-out;
+    background-color: rgb(235, 35, 35);
+}
+
+/********************
+*** SEGUNDA CAIXA ***
+********************/
 
 .box2 {
     height: 489.719px;
@@ -101,10 +143,32 @@ h2 {
     font-size: 32px;
     font-weight: bold;
 }
-.pbox2-3 {
+
+#pbox2-3 {
+    position: relative;
+    top: 70px;
     font-size: 60px;
     font-weight: 800;
-    word-spacing: 50px;
+}
+
+.pbox2-31 {
+    position: relative;
+    right: 75px;
+}
+
+.pbox2-32 {
+    position: relative;
+    right: 25px; 
+}
+
+.pbox2-33 {
+    position: relative;
+    left: 23px; 
+}
+
+.pbox2-34 {
+    position: relative;
+    left: 80px;
 }
 
 .pbox2-4 {
@@ -112,32 +176,35 @@ h2 {
     font-weight: 300;
 }
 
-/************************************
-**NECESSÁRIO ALINHAR POSTERIORMENTE**
-*************************************/
-
 .pbox2-41 {
-    margin-left: 50px;
-    margin-right: 40px;
+    position: relative;
+    right: 135px;
+    top: 70px;
 }
 
 .pbox2-42 {
-    margin-left: 55px;
-    margin-right: 40px;
+    position: relative;
+    right: 15px; 
+    top: 70px;
 }
 
 .pbox2-43 {
-    margin-left: 55px;
-    margin-right: 60px;
+    position: relative;
+    left: 78px; 
+    top: 70px;
 }
 
 .pbox2-44 {
-    margin-left: 10px;
-    margin-right: 50px;
+    position: relative;
+    left: 140px;
+    top: 70px; 
 }
 
+/*********************
+*** TERCEIRA CAIXA ***
+*********************/
 .box3 {
-    background-image: url(/assets/Image/box21.webp);
+    background-image: url(/assets/Image/teste.gif);
     background-size: cover;
     border: 1px solid black;
     height: 931.094px;
@@ -145,11 +212,43 @@ h2 {
     padding: 75px 20px 75px 20px;
 }
 
+.box3-1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #011627;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.box3-12 {
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.box3-2 {
+    font-size: 22px;
+    color: rgba(1,22,39,0.75);
+    width: 600px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 35px;
+    position: relative;
+    margin: auto;
+}
+
+.box3-22 {
+    margin-top: 50px;
+}
+
 .box4 {
     background-color: black;
     height: 829.406px;
     width: 100%;
 }
+
 
 .box5 {
     background-color: red;
@@ -169,3 +268,4 @@ footer {
     height: 443.656px;
     width: 100%;
 }
+
