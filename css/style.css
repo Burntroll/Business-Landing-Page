@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    text-transform: none;
+}
+
+*::selection {
+    color: #ffffff;
+    background-color: #d94948;;
+    font-size: 23px;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*******************
@@ -75,7 +82,7 @@ h1 {
 
 h2 {
     color: #fff;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 100;
     margin-top: 25px;
     letter-spacing: 1px;
@@ -100,23 +107,26 @@ h2 {
 .link-main {
     color: #fff;
     background-color: rgba(224, 56, 56, 1);
-    width: 360px;
+    width: 380px;
     height: 45px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     align-items: center;
     text-align: center;
+    align-content: center;
     padding: 12px 0 10px 3px;
+    border-radius: 100px;
     position: relative;
-    top: 25px;
-    left: 38%;
+    top: 20px;
+    margin: auto;
     transition: .40s ease-in-out;
+    
 }
 
 .link-main:hover {
-    transform: scale(1.25);
+    transform: scale(1.11);
     transition: .40s ease-in-out;
-    background-color: rgb(235, 35, 35);
+    background-color: #CC2229;
 }
 
 /********************
@@ -146,29 +156,29 @@ h2 {
 
 #pbox2-3 {
     position: relative;
-    top: 70px;
-    font-size: 60px;
-    font-weight: 800;
+    top: 55px;
+    font-size: 69px;
+    font-weight: 600;
 }
 
 .pbox2-31 {
     position: relative;
-    right: 75px;
+    right: 130px;
 }
 
 .pbox2-32 {
     position: relative;
-    right: 25px; 
+    right: 70px; 
 }
 
 .pbox2-33 {
     position: relative;
-    left: 23px; 
+    right: 0px; 
 }
 
 .pbox2-34 {
     position: relative;
-    left: 80px;
+    left: 65px;
 }
 
 .pbox2-4 {
@@ -178,26 +188,26 @@ h2 {
 
 .pbox2-41 {
     position: relative;
-    right: 135px;
-    top: 70px;
+    right: 162px;
+    top: 60px;
 }
 
 .pbox2-42 {
     position: relative;
-    right: 15px; 
-    top: 70px;
+    right: 40px; 
+    top: 60px;
 }
 
 .pbox2-43 {
     position: relative;
-    left: 78px; 
-    top: 70px;
+    left: 57px; 
+    top: 60px;
 }
 
 .pbox2-44 {
     position: relative;
-    left: 140px;
-    top: 70px; 
+    left: 115px;
+    top: 60px; 
 }
 
 /*********************
@@ -243,12 +253,155 @@ h2 {
     margin-top: 50px;
 }
 
+.box3-4 {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: 65px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.pbox4-41 {
+    position: relative;
+    right: 25px;
+}
+.pbox4-42 {
+    position: relative;
+    left: 5px;
+}
+.pbox4-43 {
+    position: relative;
+    left: 35px;
+}
+.pbox4-44 {
+    position: relative;
+    left: 65px;
+}
+.pbox4-45 {
+    position: relative;
+    left: 95px;
+}
+
+.box3-5 {
+    color: #fff;
+    background-color: #d94948;
+    width: 420px;
+    height: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    align-items: center;
+    text-align: center;
+    padding: 12px 0 10px 6px;
+    position: relative;
+    top: 95px;
+    margin: auto;
+    transition: .40s ease-in-out;
+    border-radius: 100px;
+}
+
+.box3-5:hover {
+    transform: scale(1.11);
+    transition: .40s ease-in-out;
+    background-color: #CC2229;
+}
+
+/*********************
+*** QUARTA CAIXA ***
+*********************/
+
 .box4 {
     background-color: black;
     height: 829.406px;
     width: 100%;
 }
 
+.box4-1 {
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box4-11 {
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    top: 90px
+}
+
+.box4-12 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 120px;
+    letter-spacing: 1px;
+    width: 680px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: start;
+    padding-left: 30px;
+    position: relative;
+    margin: auto;
+    top: 270px;
+}
+
+.box4-2p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 30px;
+    position: relative;
+    margin: auto;
+    top: 290px;
+    line-height: 25px;
+}
+
+.box4-21 {
+    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)80%), url(/assets/Image/worksheets.jpg);
+    background-size:contain;
+    height: 430.88px;
+    width: 442px;
+    border-radius: 6px;
+    position: relative;
+    margin: auto;
+    right: 235px;
+    top: 180px;
+}
+
+.box4-21:hover {
+    background-image: linear-gradient(rgba(236, 21, 28, 0.60)90%, rgb(236, 21, 28, 0.60)90%), url(/assets/Image/worksheets.jpg);
+    transition-duration: 12s;
+    transition-delay: 2s;
+}
+
+.box4-22 {
+    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)80%), url(/assets/Image/blog.jpg);
+    background-size:contain;
+    height: 430.88px;
+    width: 442px;
+    border-radius: 6px;
+    position: relative;
+    margin: auto;
+    left: 235px;
+    bottom: 250px;
+}
+
+.box4-22:hover {
+    background-image: linear-gradient(rgba(236, 21, 28, 0.60)90%, rgb(236, 21, 28, 0.60)90%), url(/assets/Image/blog.jpg);
+    transition-duration: 12s;
+    transition-delay: 2s;
+}
+
+/*********************
+*** QUINTA CAIXA ***
+*********************/
 
 .box5 {
     background-color: red;
