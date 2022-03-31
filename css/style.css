@@ -53,7 +53,7 @@ header nav a:hover {
 *********************/
 
 .box1 {
-    background-image: linear-gradient(180deg, rgba(0,0,0,.50)30%, rgba(206, 52, 52, 0.45) 70%), url(/assets/Image/firstphoto.jpg);
+    background-image: linear-gradient(180deg, rgba(0,0,0,.50), rgba(206, 52, 52, 0.45) 70%), url(/assets/Image/firstphoto.jpg);
     background-size: cover;
     height: 750px;
     width: 100%; 
@@ -364,7 +364,7 @@ h3 {
 }
 
 .box4-21 {
-    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)80%), url(/assets/Image/worksheets.jpg);
+    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)), url(/assets/Image/worksheets.jpg);
     background-size:contain;
     height: 430.88px;
     width: 442px;
@@ -376,13 +376,13 @@ h3 {
 }
 
 .box4-21:hover {
-    background-image: linear-gradient(rgba(236, 21, 28, 0.60)90%, rgb(236, 21, 28, 0.60)90%), url(/assets/Image/worksheets.jpg);
+    background-image: linear-gradient(rgba(236, 21, 28, 0.60), rgb(236, 21, 28, 0.60)), url(/assets/Image/worksheets.jpg);
     transition-duration: 12s;
     transition-delay: 2s;
 }
 
 .box4-22 {
-    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)80%), url(/assets/Image/blog.jpg);
+    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)), url(/assets/Image/blog.jpg);
     background-size:contain;
     height: 430.88px;
     width: 442px;
@@ -394,7 +394,7 @@ h3 {
 }
 
 .box4-22:hover {
-    background-image: linear-gradient(rgba(236, 21, 28, 0.60)90%, rgb(236, 21, 28, 0.60)90%), url(/assets/Image/blog.jpg);
+    background-image: linear-gradient(rgba(236, 21, 28, 0.60), rgb(236, 21, 28, 0.60)), url(/assets/Image/blog.jpg);
     transition-duration: 12s;
     transition-delay: 2s;
 }
@@ -404,10 +404,26 @@ h3 {
 *********************/
 
 .box5 {
-    background-color: red;
+    background-color: rgb(196, 51, 51);
     height: 440.797px;
     width: 100%;
 }
+
+.box5-1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 80px;   
+}
+
+
+/*********************
+*** QUINTA CAIXA ***
+*********************/
 
 .box6 {
     background-color: white;
@@ -415,6 +431,42 @@ h3 {
     width: 100%;
     padding: 40px 0 40px 0;
 }
+
+.box6-1 {
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    bottom: 12px;
+    right: 120px;
+}
+
+.box6-2 {
+    background-color: rgba(224, 56, 56, 1);
+    width: 300px;
+    height: 45px;
+    font-size: 18px;
+    padding: 11px 0 0 0;
+    color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    bottom: 47px;
+    left: 460px;
+    transition: .40s ease-in-out;
+}
+
+.box6-2:hover {
+    transform: scale(1.11);
+    transition: .40s ease-in-out;
+    background-color: #CC2229;
+}
+
+/*************
+*** FOOTER ***
+**************/
 
 footer {
     background-color: black;
