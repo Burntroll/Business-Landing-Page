@@ -470,7 +470,64 @@ h3 {
 
 footer {
     background-color: black;
+    color: #ffffff;
     height: 443.656px;
     width: 100%;
 }
 
+hr {
+    width: 90px; 
+    margin: 12px 0 12px 0
+}
+
+.midia {
+    font-size: 13px;
+    font-weight: bold;
+}
+.confoot {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 70px 0 20px 0;
+}
+
+.foot1 {
+    width: 306px;
+    height: 133px;
+}
+
+.foot1-1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.foot1-2 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.autoria {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    position: relative;
+    top: 110px;
+}
+
+.author:hover {
+    animation-name: dev;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes dev {
+    100% {
+        transform: scale(1.4);
+        color: lightcoral;
+    }
+}
