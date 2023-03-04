@@ -1,58 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    text-transform: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
 }
 
 *::selection {
-    color: #ffffff;
-    background-color: #d94948;;
-    font-size: 23px;
+  color: #ffffff;
+  background-color: #d94948;
+  font-size: 23px;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 /*******************
 *** NAVBAR CAIXA ***
 *******************/
 
-header .container{
-    background-color: black;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 4;
+header .container {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 4;
 }
 
 header .logo {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 header nav a {
-    margin-right: 40px;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 100%;
+  margin-right: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 100%;
 }
 
 header nav a:hover {
-    color: #8d8c8c;
-    transition: .40s ease all;
+  color: #8d8c8c;
+  transition: 0.4s ease all;
 }
 
 .magn {
-    width: 26px;
-    height: 26px;
-    position: relative;
-    top: 10px;
+  width: 26px;
+  height: 26px;
+  position: relative;
+  top: 10px;
 }
 
 /*********************
@@ -60,80 +61,84 @@ header nav a:hover {
 *********************/
 
 .box1 {
-    background-image: linear-gradient(180deg, rgba(0,0,0,.50), rgba(206, 52, 52, 0.45) 70%), url(/assets/Image/firstphoto.jpg);
-    background-size: cover;
-    height: 750px;
-    width: 100%; 
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(206, 52, 52, 0.45) 70%
+    ),
+    url(/assets/Image/firstphoto.jpg);
+  background-size: cover;
+  height: 750px;
+  width: 100%;
 }
 
 .box-text {
-    color: black;
-    height: 130px;
-    width: 1400px;
-    position: relative;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    top: 340px;
+  color: black;
+  height: 130px;
+  width: 1400px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  top: 340px;
 }
 
 h1 {
-    color: white;
-    font-size: 88px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1em;
-    letter-spacing: 0px;
-    text-shadow: 5px 3px 100px rgb(0 0 0 / 70%);
+  color: white;
+  font-size: 88px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1em;
+  letter-spacing: 0px;
+  text-shadow: 5px 3px 100px rgb(0 0 0 / 70%);
 }
 
 h2 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: 25px;
-    letter-spacing: 1px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 25px;
+  letter-spacing: 1px;
 }
 
 .whatsapp {
-    height: 60px;
-    width: 60;
-    position: fixed;
-    top: 90%;
-    left: 94.5%;
-    opacity: 0.8;
-    transition: .40s ease all;
+  height: 60px;
+  width: 60;
+  position: fixed;
+  top: 90%;
+  left: 94.5%;
+  opacity: 0.8;
+  transition: 0.4s ease all;
 }
 
 .whatsapp:hover {
-    transform: scale(1.2);
-    opacity: 1;
-    transition: .40s ease all;
+  transform: scale(1.2);
+  opacity: 1;
+  transition: 0.4s ease all;
 }
 
 .link-main {
-    color: #fff;
-    background-color: rgba(224, 56, 56, 1);
-    width: 380px;
-    height: 45px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    padding: 12px 0 10px 3px;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
-    margin: auto;
-    transition: .40s ease-in-out;
-    
+  color: #fff;
+  background-color: rgba(224, 56, 56, 1);
+  width: 380px;
+  height: 45px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding: 12px 0 10px 3px;
+  border-radius: 100px;
+  position: relative;
+  top: 20px;
+  margin: auto;
+  transition: 0.4s ease-in-out;
 }
 
 .link-main:hover {
-    transform: scale(1.11);
-    transition: .40s ease-in-out;
-    background-color: #CC2229;
+  transform: scale(1.11);
+  transition: 0.4s ease-in-out;
+  background-color: #cc2229;
 }
 
 /********************
@@ -141,285 +146,285 @@ h2 {
 ********************/
 
 .box2 {
-    height: 489.719px;
-    width: 100%;
-    background-color: black;
+  height: 489.719px;
+  width: 100%;
+  background-color: black;
 
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 .pbox2-1 {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 1.3px;
-    padding-top: 3em;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  padding-top: 3em;
 }
 
 .pbox2-2 {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 #pbox2-3 {
-    position: relative;
-    top: 55px;
-    font-size: 69px;
-    font-weight: 600;
+  position: relative;
+  top: 55px;
+  font-size: 69px;
+  font-weight: 600;
 }
 
 .pbox2-31 {
-    position: relative;
-    right: 130px;
+  position: relative;
+  right: 130px;
 }
 
 .pbox2-32 {
-    position: relative;
-    right: 70px; 
+  position: relative;
+  right: 70px;
 }
 
 .pbox2-33 {
-    position: relative;
-    right: 0px; 
+  position: relative;
+  right: 0px;
 }
 
 .pbox2-34 {
-    position: relative;
-    left: 65px;
+  position: relative;
+  left: 65px;
 }
 
 .pbox2-4 {
-    font-size: 19px;
-    font-weight: 300;
+  font-size: 19px;
+  font-weight: 300;
 }
 
 .pbox4-40 {
-    color: currentColor;
+  color: currentColor;
 }
 
 .pbox2-41 {
-    position: relative;
-    right: 162px;
-    top: 60px;
+  position: relative;
+  right: 162px;
+  top: 60px;
 }
 
 .pbox2-42 {
-    position: relative;
-    right: 40px; 
-    top: 60px;
+  position: relative;
+  right: 40px;
+  top: 60px;
 }
 
 .pbox2-43 {
-    position: relative;
-    left: 57px; 
-    top: 60px;
+  position: relative;
+  left: 57px;
+  top: 60px;
 }
 
 .pbox2-44 {
-    position: relative;
-    left: 115px;
-    top: 60px; 
+  position: relative;
+  left: 115px;
+  top: 60px;
 }
 
 /*********************
 *** TERCEIRA CAIXA ***
 *********************/
 .box3 {
-    background-image: url(/assets/Image/teste.gif);
-    background-size: cover;
-    border: 1px solid black;
-    height: 931.094px;
-    width: 100%;
-    padding: 75px 20px 75px 20px;
+  background-image: url(/assets/Image/teste.gif);
+  background-size: cover;
+  border: 1px solid black;
+  height: 931.094px;
+  width: 100%;
+  padding: 75px 20px 75px 20px;
 }
 
 .box3-1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #011627;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: #011627;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .box3-12 {
-    margin-top: -25px;
-    margin-bottom: 20px;
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
 
 .box3-2 {
-    font-size: 22px;
-    color: rgba(1,22,39,0.75);
-    width: 600px;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 35px;
-    position: relative;
-    margin: auto;
+  font-size: 22px;
+  color: rgba(1, 22, 39, 0.75);
+  width: 600px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 35px;
+  position: relative;
+  margin: auto;
 }
 
 .box3-22 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .imglinks {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    position: relative;
-    width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  width: 1000px;
 }
 
 .box3-30 {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .box3-31 {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .box3-31:hover {
-    animation-name: passes;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: passes;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes passes {
-    100% {
-        top: 35px;
-    }
+  100% {
+    top: 35px;
+  }
 }
 
 .box3-32 {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .box3-32:hover {
-    animation-name: passes1;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: passes1;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes passes1 {
-    100% {
-        top: 35px;
-    }
+  100% {
+    top: 35px;
+  }
 }
 
 .box3-33 {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .box3-33:hover {
-    animation-name: passes2;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: passes2;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes passes2 {
-    100% {
-        top: 35px;
-    }
+  100% {
+    top: 35px;
+  }
 }
 
 .box3-34 {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .box3-34:hover {
-    animation-name: passes3;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: passes3;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes passes3 {
-    100% {
-        top: 35px;
-    }
+  100% {
+    top: 35px;
+  }
 }
 
 .box3-35 {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .box3-35:hover {
-    animation-name: passes4;
-    animation-duration: 0.1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: passes4;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes passes4 {
-    100% {
-        top: 35px;
-    }
+  100% {
+    top: 35px;
+  }
 }
 
 .box3-4 {
-    font-size: 16px;
-    font-weight: 700;
-    position: relative;
-    top: 65px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  top: 65px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .pbox4-41 {
-    position: relative;
-    right: 47px;
+  position: relative;
+  right: 47px;
 }
 .pbox4-42 {
-    position: relative;
-    left: -2px;
+  position: relative;
+  left: -2px;
 }
 .pbox4-43 {
-    position: relative;
-    left: 30px;
+  position: relative;
+  left: 30px;
 }
 .pbox4-44 {
-    position: relative;
-    left: 40px;
+  position: relative;
+  left: 40px;
 }
 .pbox4-45 {
-    position: relative;
-    left: 62px;
+  position: relative;
+  left: 62px;
 }
 
 .box3-5 {
-    color: #fff;
-    background-color: #d94948;
-    width: 420px;
-    height: 45px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    align-items: center;
-    text-align: center;
-    padding: 12px 0 10px 6px;
-    position: relative;
-    top: 95px;
-    margin: auto;
-    transition: .40s ease-in-out;
-    border-radius: 100px;
+  color: #fff;
+  background-color: #d94948;
+  width: 420px;
+  height: 45px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  padding: 12px 0 10px 6px;
+  position: relative;
+  top: 95px;
+  margin: auto;
+  transition: 0.4s ease-in-out;
+  border-radius: 100px;
 }
 
 .box3-5:hover {
-    transform: scale(1.11);
-    transition: .40s ease-in-out;
-    background-color: #CC2229;
+  transform: scale(1.11);
+  transition: 0.4s ease-in-out;
+  background-color: #cc2229;
 }
 
 /*********************
@@ -427,93 +432,109 @@ h2 {
 *********************/
 
 .box4 {
-    background-color: black;
-    height: 829.406px;
-    width: 100%;
+  background-color: black;
+  height: 829.406px;
+  width: 100%;
 }
 
 .box4-1 {
-    color: #ffffff;
-    text-align: center;
-    align-items: center;
-    align-content: center;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 .box4-11 {
-    font-size: 48px;
-    font-weight: 700;
-    position: relative;
-    top: 90px
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  top: 90px;
 }
 
 .box4-12 {
-    font-size: 14px;
-    font-weight: 100;
-    position: relative;
-    top: 120px;
-    letter-spacing: 1px;
-    width: 680px;
-    margin: auto;
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 120px;
+  letter-spacing: 1px;
+  width: 680px;
+  margin: auto;
 }
 
 h3 {
-    font-size: 23px;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: start;
-    padding-left: 30px;
-    position: relative;
-    margin: auto;
-    top: 270px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: start;
+  padding-left: 30px;
+  position: relative;
+  margin: auto;
+  top: 270px;
 }
 
 .box4-2p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #ffffff;
-    padding-left: 30px;
-    position: relative;
-    margin: auto;
-    top: 290px;
-    line-height: 25px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-left: 30px;
+  position: relative;
+  margin: auto;
+  top: 290px;
+  line-height: 25px;
 }
 
 .box4-21 {
-    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)), url(/assets/Image/worksheets.jpg);
-    background-size:cover;
-    height: 430.88px;
-    width: 442px;
-    border-radius: 6px;
-    position: relative;
-    margin: auto;
-    right: 235px;
-    top: 180px;
-    background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(148, 14, 20, 0.75),
+      rgb(148, 14, 20, 0.75)
+    ),
+    url(/assets/Image/worksheets.jpg);
+  background-size: cover;
+  height: 430.88px;
+  width: 442px;
+  border-radius: 6px;
+  position: relative;
+  margin: auto;
+  right: 235px;
+  top: 180px;
+  background-repeat: no-repeat;
 }
 
 .box4-21:hover {
-    background-image: linear-gradient(rgba(236, 21, 28, 0.60), rgb(236, 21, 28, 0.60)), url(/assets/Image/worksheets.jpg);
-    transition-duration: 12s;
-    transition-delay: 2s;
+  background-image: linear-gradient(
+      rgba(236, 21, 28, 0.6),
+      rgb(236, 21, 28, 0.6)
+    ),
+    url(/assets/Image/worksheets.jpg);
+  transition-duration: 12s;
+  transition-delay: 2s;
 }
 
 .box4-22 {
-    background-image: linear-gradient(rgba(148, 14, 20, 0.75), rgb(148, 14, 20, 0.75)), url(/assets/Image/blog.jpg);
-    background-size:cover;
-    height: 430.88px;
-    width: 442px;
-    border-radius: 6px;
-    position: relative;
-    margin: auto;
-    left: 235px;
-    bottom: 250px;
-    background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(148, 14, 20, 0.75),
+      rgb(148, 14, 20, 0.75)
+    ),
+    url(/assets/Image/blog.jpg);
+  background-size: cover;
+  height: 430.88px;
+  width: 442px;
+  border-radius: 6px;
+  position: relative;
+  margin: auto;
+  left: 235px;
+  bottom: 250px;
+  background-repeat: no-repeat;
 }
 
 .box4-22:hover {
-    background-image: linear-gradient(rgba(236, 21, 28, 0.60), rgb(236, 21, 28, 0.60)), url(/assets/Image/blog.jpg);
-    transition-duration: 12s;
-    transition-delay: 2s;
+  background-image: linear-gradient(
+      rgba(236, 21, 28, 0.6),
+      rgb(236, 21, 28, 0.6)
+    ),
+    url(/assets/Image/blog.jpg);
+  transition-duration: 12s;
+  transition-delay: 2s;
 }
 
 /*********************
@@ -521,39 +542,38 @@ h3 {
 *********************/
 
 .box5 {
-    background-color: rgb(196, 51, 51);
-    height: 440.797px;
-    width: 100%;
+  background-color: rgb(196, 51, 51);
+  height: 440.797px;
+  width: 100%;
 }
 
 .box5-1 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #ffffff;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    top: 80px;   
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  top: 80px;
 }
 
 .carbox {
-    width: 75%;
-    position: relative;
-    margin: auto;
-    left: 70px;
+  width: 75%;
+  position: relative;
+  margin: auto;
+  left: 70px;
 }
 
 .owl-carousel {
-    position: relative;
-    top: 110px;
-    margin: auto;
+  position: relative;
+  top: 110px;
+  margin: auto;
 }
 
-
 .carou1 {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 /*********************
@@ -561,42 +581,42 @@ h3 {
 *********************/
 
 .box6 {
-    background-color: white;
-    height: 53px;
-    width: 100%;
-    padding: 40px 0 40px 0;
+  background-color: white;
+  height: 53px;
+  width: 100%;
+  padding: 40px 0 40px 0;
 }
 
 .box6-1 {
-    font-size: 22px;
-    font-weight: 700;
-    position: relative;
-    text-align: center;
-    margin: auto;
-    bottom: 12px;
-    right: 120px;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  bottom: 12px;
+  right: 120px;
 }
 
 .box6-2 {
-    background-color: rgba(224, 56, 56, 1);
-    width: 300px;
-    height: 45px;
-    font-size: 18px;
-    padding: 11px 0 0 0;
-    color: #ffffff;
-    border-radius: 100px;
-    text-align: center;
-    position: relative;
-    margin: auto;
-    bottom: 47px;
-    left: 460px;
-    transition: .40s ease-in-out;
+  background-color: rgba(224, 56, 56, 1);
+  width: 300px;
+  height: 45px;
+  font-size: 18px;
+  padding: 11px 0 0 0;
+  color: #ffffff;
+  border-radius: 100px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  bottom: 47px;
+  left: 460px;
+  transition: 0.4s ease-in-out;
 }
 
 .box6-2:hover {
-    transform: scale(1.11);
-    transition: .40s ease-in-out;
-    background-color: #CC2229;
+  transform: scale(1.11);
+  transition: 0.4s ease-in-out;
+  background-color: #cc2229;
 }
 
 /*************
@@ -604,65 +624,74 @@ h3 {
 **************/
 
 footer {
-    background-color: black;
-    color: #ffffff;
-    height: 443.656px;
-    width: 100%;
+  background-color: black;
+  color: #ffffff;
+  height: 443.656px;
+  width: 100%;
 }
 
 hr {
-    width: 90px; 
-    margin: 12px 0 12px 0
+  width: 90px;
+  margin: 12px 0 12px 0;
 }
 
 .midia {
-    font-size: 13px;
-    font-weight: bold;
+  font-size: 13px;
+  font-weight: bold;
 }
+
+.social-links {
+  margin-top: 5px;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
 .confoot {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.5em;
-    padding: 70px 0 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin: auto;
+  text-align: justify;
+  line-height: 1.5em;
+  padding: 70px 0 20px 0;
 }
 
 .foot1 {
-    width: 306px;
-    height: 133px;
+  width: 306px;
+  height: 133px;
 }
 
 .foot1-1 {
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .foot1-2 {
-    font-size: 12px;
-    font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .autoria {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    position: relative;
-    top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 110px;
 }
 
 .author:hover {
-    animation-name: dev;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+  animation-name: dev;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 @keyframes dev {
-    100% {
-        transform: scale(1.4);
-        color: lightcoral;
-    }
+  100% {
+    transform: scale(1.4);
+    color: lightcoral;
+  }
 }
